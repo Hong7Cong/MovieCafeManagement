@@ -1,0 +1,21 @@
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\bin\Debug\KTPMUDproject.exe.config
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\bin\Debug\KTPMUDproject.exe
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\bin\Debug\KTPMUDproject.pdb
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.csprojResolveAssemblyReference.cache
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.LoginForm.resources
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.Interface.resources
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.Properties.Resources.resources
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.csproj.GenerateResource.Cache
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.exe
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.pdb
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\bin\Debug\KTPMUDproject.exe.config
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.exe
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.pdb
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.csprojResolveAssemblyReference.cache
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.LoginForm.resources
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.Interface.resources
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.Properties.Resources.resources
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.csproj.GenerateResource.Cache
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\bin\Debug\KTPMUDproject.exe
+C:\Users\asus\Documents\KTPMUDproject\KTPMUDproject\bin\Debug\KTPMUDproject.pdb
+D:\Visual studio 2012\Project C#\KTPMUDproject\KTPMUDproject\obj\Debug\KTPMUDproject.Giaodien.resources

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ktpmudDataSet" targetNamespace="http://tempuri.org/ktpmudDataSet.xsd" xmlns:mstns="http://tempuri.org/ktpmudDataSet.xsd" xmlns="http://tempuri.org/ktpmudDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ktpmudConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ktpmudConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.KTPMUDproject.Properties.Settings.GlobalReference.Default.ktpmudConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="nhansuTableAdapter" GeneratorDataComponentClassName="nhansuTableAdapter" Name="nhansu" UserDataComponentName="nhansuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ktpmudConnectionString (Settings)" DbObjectName="ktpmud.nhansu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `staff_id`, `ten`, `ho`, `dia_chi`, `tai_khoan`, `mat_khau`, `quyen_han` FROM `nhansu`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="phimTableAdapter" GeneratorDataComponentClassName="phimTableAdapter" Name="phim" UserDataComponentName="phimTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ktpmudConnectionString (Settings)" DbObjectName="ktpmud.phim" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `phim_id`, `ten_phim`, `mo_ta`, `nam_phat_song`, `the_loai`, `thoi_luong`, `gia_thanh` FROM `phim`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ktpmudDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ktpmudDataSet" msprop:Generator_UserDSName="ktpmudDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="nhansu" msprop:Generator_TableClassName="nhansuDataTable" msprop:Generator_TableVarName="tablenhansu" msprop:Generator_TablePropName="nhansu" msprop:Generator_RowDeletingName="nhansuRowDeleting" msprop:Generator_RowChangingName="nhansuRowChanging" msprop:Generator_RowEvHandlerName="nhansuRowChangeEventHandler" msprop:Generator_RowDeletedName="nhansuRowDeleted" msprop:Generator_UserTableName="nhansu" msprop:Generator_RowChangedName="nhansuRowChanged" msprop:Generator_RowEvArgName="nhansuRowChangeEvent" msprop:Generator_RowClassName="nhansuRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="phim" msprop:Generator_TableClassName="phimDataTable" msprop:Generator_TableVarName="tablephim" msprop:Generator_TablePropName="phim" msprop:Generator_RowDeletingName="phimRowDeleting" msprop:Generator_RowChangingName="phimRowChanging" msprop:Generator_RowEvHandlerName="phimRowChangeEventHandler" msprop:Generator_RowDeletedName="phimRowDeleted" msprop:Generator_UserTableName="phim" msprop:Generator_RowChangedName="phimRowChanged" msprop:Generator_RowEvArgName="phimRowChangeEvent" msprop:Generator_RowClassName="phimRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
